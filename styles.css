@@ -1,0 +1,129 @@
+@media only screen and (max-width: 3000px) {
+    body {
+        background-color: hsl(47, 88%, 63%);
+        margin: 10% 40%;
+      }
+    main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    width: fit-content;
+    padding: 20px 20px 5px 20px;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 4px 4px 1px black;
+    }
+    .svg-container {
+    border-radius: 50px;
+   
+    }
+    #learn {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 700;
+    width: 17%;
+    text-align: center;
+    padding: 5px 2px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: hsl(0, 0%, 7%);
+    }
+    .text {
+    margin-bottom: 10px;
+    }
+    #date {
+    font-size: 13px;
+    }
+    #header h1{
+    font-weight: 700;
+    font-size: 17px;
+    }
+    .text p {
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    width: 90%;
+    }
+    footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 0px;
+    }
+    footer img {
+    margin-right: 8px;
+    }
+    footer span {
+    font-size: 13px;
+    font-weight: 700;
+    }
+    .attribution { font-size: 11px; text-align: center; margin-top: 10px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: hsl(47, 88%, 63%);
+        margin: 10% 40%;
+      }
+    main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    width: fit-content;
+    padding: 20px 20px 5px 20px;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 4px 4px 1px black;
+    }
+    svg {
+    border-radius: 50px;
+    width: 90%;
+    }
+    #learn {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 700;
+    width: 17%;
+    text-align: center;
+    padding: 5px 2px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: hsl(0, 0%, 7%);
+    }
+    .text {
+    margin-bottom: 10px;
+    }
+    #date {
+    font-size: 13px;
+    }
+    #header h1{
+    font-weight: 700;
+    font-size: 17px;
+    }
+    .text p {
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    width: 90%;
+    }
+    footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 0px;
+    }
+    footer img {
+    margin-right: 8px;
+    }
+    footer span {
+    font-size: 13px;
+    font-weight: 700;
+    }
+    .attribution { font-size: 11px; text-align: center; margin-top: 10px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
